@@ -1,0 +1,1 @@
+const { skills: skillsData } = skills.get('data');    const skillsMember = skillsData.filter(skill => skill.user_id === id);    return skillsMember;}    const { id } = users.get('data');    const { skills, users } = app.service('api');    const app = this;    // Path: /skills/memberfunction skillsMember() {
